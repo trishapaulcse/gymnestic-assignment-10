@@ -1,33 +1,72 @@
 import React from "react";
+import { Table } from "react-bootstrap";
 
 const Blog = () => {
     return (
-        <section class="px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2">
-            <div class="grid grid-cols-1 gap-24 md:grid-cols-1">
-                <div>
-                    <h1 class="mb-6 text-2xl font-light text-gray-900 md:text-3xl">
-                        Questions & Answers
-                    </h1>
-                    <p class="mt-10 mb-3 font-semibold text-black-900">
-                        Difference between authentication & authorization......
-                    </p>
-                    <p class="text-black-600">
-                        Authorization
-                        the process of verifying and confirming employees ID and passwords in an organization is called authentication, but determining which employee has access to which floor is called authorization.
+        <div className="container">
+            <h2 className="text-center text-primary">
+                Difference between Authentication and Authorization
+            </h2>
+            <h3>
+                Authentication is the process of verifying who is someone. onthe
+                ortherhand authorization is the process of verifiying what specific
+                application file or data that user submit for acess.
+            </h3>
+            <Table striped bordered hover>
+                <thead>
+                    <tr>
+                        <th>Authentication</th>
+                        <th>Authorization</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>It is the process of verifying the identity of a user.</td>
+                        <td>Authorization determines what resources a user can access.</td>
 
-                        Authentication
-                        Authentication means confirming your own identity, while authorization means granting access to the system. In simple terms, authentication is the process of verifying who you are, while authorization is the process of verifying what you have access to
-                    </p>
-                    <p class="mt-10 mb-3 font-semibold text-black-900">
-                        why are using firebase......what other options do you have to implement authentication....????
-                    </p>
-                    <p class="text-black-600">
+                    </tr>
+                    <tr>
+                        <td>It always proceeds to authorization</td>
+                        <td>It is the process of allowing an authenticated user access to resources.</td>
 
-                    </p>
-
-                </div>
-            </div>
-        </section>
+                    </tr>
+                    <tr>
+                        <td>Authentication is visible to and partially changeable by the user.</td>
+                        <td>Authorization is not visible to or changeable by the user.</td>
+                    </tr>
+                </tbody>
+            </Table>
+            <h2 className="text-center text-primary">
+                Why are you using firebase?
+            </h2>
+            <h3>
+                Firebase is a less technical and time-saving alternative to writing full-fledged backend code for dynamic apps.With Firebase, it's pretty simple to connect and use built-in third-party authentication providers, including Google, Facebook, Twitter, among others.
+            </h3>
+            <h2 className="text-center text-primary">
+                What other options do you have to implement authentication?
+            </h2>
+            <h3>
+                1.Auth0
+                2.Okta
+                3.Passport
+                4.Keycloak
+            </h3>
+            <h2 className="text-center text-primary">
+                What other services does firebase provide other than authentication
+            </h2>
+            <h3>
+                This service list which provide firebase with authentication
+                1.Cloud Firestore
+                2.Cloud Functions
+                3.Hosting
+                4.Cloud Storage
+                5.Google Analytics
+                6.Predictions
+                7.Cloud Messaging
+                8.Dynamic Links
+                9.Remote Config
+            </h3>
+        </div>
     );
 };
 
