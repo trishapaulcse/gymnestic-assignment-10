@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import FuturePlan from "./FuturePlan/FuturePlan";
-import LnadingPageImage from "../../images/gym1.jpg";
+import LnadingPageImage from "../../images/myimg.png";
 import { Col, Container, Row } from "react-bootstrap";
 const About = () => {
     return (
