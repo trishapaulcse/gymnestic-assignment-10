@@ -1,5 +1,5 @@
-import google from '../../../images/social-icons/google.png';
-import github from '../../../images/social-icons/github.png'
+// import google from '../../../images/social-icons/google.png';
+// import github from '../../../images/social-icons/github.png'
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { Navigate, useLocation, useNavigate } from 'react-router-dom';
@@ -52,13 +52,13 @@ const SocialLogin = () => {
 
 
                     className='btn btn-info w-50 mx-auto d-block my-3'>
-                    <img style={{ width: "30px" }} src={google} alt="" srcset="" />
+                    {/* <img style={{ width: "30px" }} src={google} alt="" srcset="" /> */}
                     <span className='px-2'>Login With Google</span>
                 </button>
                 <button
                     onClick={() => signInWithGithub()}
                     className='btn btn-info w-50 mx-auto d-block my-3'>
-                    <img style={{ width: "30px" }} src={github} alt="" srcset="" />
+                    {/* <img style={{ width: "30px" }} src={github} alt="" srcset="" /> */}
                     <span className='px-2'>Login With Github</span>
                 </button>
 

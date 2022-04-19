@@ -51,13 +51,13 @@ const Login = () => {
     return (
         <div className="container w-50 mx-auto">
             <ToastContainer />
-            <h2 className="text-primary text-center mt-2">Please Login</h2>
+            <h2 className="text-primary text-center mt-2">Please login</h2>
             <Form onSubmit={handleSubmit} >
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Enter email" required />
                     <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
+                        We'll never share your email.....
                     </Form.Text>
                 </Form.Group>
 
@@ -70,7 +70,7 @@ const Login = () => {
                 </Button>
             </Form>
             {errorElement}
-            <p>New To Lawyer Service <Link to='/register' className="text-danger pe-auto" onClick={navigateRegister}>Please Register</Link> </p>
+            <p>New <Link to='/register' className="text-danger pe-auto" onClick={navigateRegister}>Please Register</Link> </p>
             <p>Forget Password ?<span style={{ cursor: "pointer" }} className="text-danger pe-auto" onClick={resetPassword}>Reset Password</span> </p>
             <SocialLogin></SocialLogin>
         </div>
