@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Business Law",
+        "price": "100",
+        "description": "Corporate law is the body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses. The term refers to the legal practice of law relating to corporations, or to the theory of corporations",
+        "img": "https://i.ibb.co/27CPjQq/gym1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Finance Law",
+        "price": "200",
+        "description": "Financial law is the law and regulation of the insurance, derivatives, commercial banking, capital markets and investment management sectors. Understanding Financial law is crucial to appreciating. ",
+        "img": "https://i.ibb.co/379YjZW/gym2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Family Law",
+        "price": "300",
+        "description": "Family law is a legal practice area that focuses on issues involving family relationships such as marriage, adoption, divorce, and child custody, among others. Attorneys practicing family law can represent clients in family .",
+        "img": "https://i.ibb.co/dDFVHYk/gym3.jpg"
+    }
+]

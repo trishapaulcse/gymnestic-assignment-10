@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import FuturePlan from "./FuturePlan/FuturePlan";
-import LnadingPageImage from "../../images/myimg.png";
+import LnadingPageImage from "../../images/gym1.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
             <Container>
                 <Row>
                     <Col xs={12} sm={12} md={12}>
-                        <h1 className="about-heading text-center"> About page</h1>
+                        <h1 className="about-heading text-center"> This is about page</h1>
 
                         <div className="image-container">
                             <img src={LnadingPageImage} className="img-fluid" alt="" srcset="" />
