@@ -9,10 +9,10 @@ const About = () => {
             <Container>
                 <Row>
                     <Col xs={12} sm={12} md={12}>
-                        <h1 className="about-heading text-center"> Its about page</h1>
+                        <h1 className="about-heading text-center"> Its a about page</h1>
 
                         <div className="image-container">
-                            <img src={LnadingPageImage} className="img-fluid" alt="" srcset="" />
+                            <img src={LnadingPageImage} className="about-img" alt="" srcset="" />
                         </div>
                         <FuturePlan></FuturePlan>
                     </Col>
