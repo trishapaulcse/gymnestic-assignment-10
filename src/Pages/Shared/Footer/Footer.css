@@ -1,0 +1,7 @@
+.footer {
+    height: 50px;
+    display: grid;
+    align-items: center;
+    background: black;
+    color: white;
+}
