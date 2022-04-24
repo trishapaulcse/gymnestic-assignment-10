@@ -6,7 +6,7 @@ import Home from './Pages/Home/Home/Home';
 import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';
 import Login from './Pages/Login/Login/Login';
-import Register from './Pages/Login/Register/Register'
+import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import CheckOut from './Pages/CheckOut/CheckOut';
 import NotFound from './Pages/Shared/NotFound/NotFound';

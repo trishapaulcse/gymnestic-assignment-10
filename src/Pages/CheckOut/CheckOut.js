@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
-import "./CheckOut.css";
+
 
 const CheckOut = () => {
     return (
         <div className="container">
-            <h2 className="checkout-title">it's check out page</h2>
+            <h2 className="checkout-title">This is check out page</h2>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Name</Form.Label>
@@ -15,7 +15,7 @@ const CheckOut = () => {
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
                     <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
+                        We'll never share your email.......
                     </Form.Text>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">

@@ -8,10 +8,14 @@ const HomePractric = () => {
                     <Col>
                         <div className="home-practric">
                             <h2 className="text-center" style={{ fontSize: "4em" }}>
-                                Practice Area
+
+                                Service Area
+
                             </h2>
                             <h5 className="text-center" style={{ fontSize: "1em" }}>
-                                We Are Ready for Provide 5 Star class Service For You. Let's connect with us and get our premimum service
+
+
+                                Let's connect with us and get our premimum service............
                             </h5>
                         </div>
                     </Col>

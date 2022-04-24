@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Service from "../Service/Service";
 import './Services.css'
-const Services = ({ service }) => {
+const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('service.json')
@@ -10,7 +10,8 @@ const Services = ({ service }) => {
     }, [])
     return (
         <div className="container">
-            <h2 className="services-title" >Our Total Servies : {services.length} </h2>
+            <h2 className="services-title" >
+                Services Total : {services.length} </h2>
             <div className="services-container">
                 {
                     services.map(service => <Service

@@ -1,5 +1,5 @@
 // import google from '../../../images/social-icons/google.png';
-// import github from '../../../images/social-icons/github.png'
+// import github from '../../../images/social-icons/github.png';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { Navigate, useLocation, useNavigate } from 'react-router-dom';
