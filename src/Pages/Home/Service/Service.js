@@ -16,7 +16,7 @@ const Service = ({ service }) => {
                     <Card.Text>
                         {description}
                     </Card.Text>
-                    <Button onClick={() => navigate('/checkout')} variant="primary">Service For : {name}</Button>
+                    <Button onClick={() => navigate('/checkout')} variant="success">Service For : {name}</Button>
                 </Card.Body>
             </Card>
         </div>
